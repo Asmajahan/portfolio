@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Add Font Awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>  
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/A.png" class="logo" width="300" height="auto">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Certificates</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav> 
+        <div class="header-text">
+            <p>Final Year BSc Student in <br>Data Science and Business Analytics</p>
+            <h1>Hi, I'm <span>Asmajahan</span><br> Karkal</h1>
+        </div>
+    </div>
+</div>
+
+<!--------------- About ---------------------->
+<div id="About">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/About.png"> 
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    I'm Asmajahan Karkal, a final-year BSc student in Data Science & Business Analytics. 
+                    I've gained hands-on experience through internships in data analysis, where I focused on creating insights and improving processes. 
+                    Skilled in Python, SQL, Excel, and Power BI, I enjoy finding patterns in data and presenting them in clear, actionable ways. 
+                    I’m passionate about making data-driven decisions that drive results and am excited to bring this mindset to my future roles.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programming Languages:</span><br> Python, SQL, MySQL</li>
+                        <li><span>Data Visualization:</span><br> Power BI, Excel, Matplotlib, Seaborn</li>
+                        <li><span>Machine Learning:</span><br> Supervised & Unsupervised Learning, Regression, Classification, Clustering</li>
+                        <li><span>Cloud Computing:</span><br> AWS for data storage and analytics</li>
+                        <li><span>Data Analytics:</span><br> EDA, Feature Engineering, Pandas, NumPy, Scikit-Learn</li>
+                        <li><span>Tools:</span><br> Jupyter Notebook, Git, GitHub, Google Sheets</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Data Science Intern:</span><br> Infinity Learning, 10/2023 – 10/2024, Mumbai, India</li>
+                        <li><span>Data Analytics Intern:</span><br> Humans Of Rural India, 04/2024 – 05/2024, Mumbai, India</li>
+                    </ul> 
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>BSc Data Science & Business Intelligence:</span><br> SDBI - School Of Data Science & Business Intelligence, 07/2022 – Present, Mumbai, India</li>
+                    </ul>
+                </div>
+            </div>          
+        </div>      
+    </div>
+</div>  
+
+<!---------- Projects ---------->  
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/adhar.png">
+                <div class="layer">
+                    <h3>AadhaarShield</h3>
+                    <p>A project enhancing data security for Aadhaar information, focusing on protecting sensitive data through advanced security protocols.</p>
+                    <a href="https://github.com/Asmajahan/AadhaarShield" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>  
+            <div class="work">
+                <img src="images/Global-Survey-Analysis.jpg">
+                <div class="layer">
+                    <h3>Unveiling Compensation Insights</h3>
+                    <p>Analyzes global salary survey data to highlight compensation trends across industries and regions.</p>
+                    <a href="https://github.com/Asmajahan/Unveiling-Compensation-Insights" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div> 
+            <div class="work">
+                <img src="images/Stock Data.jpg">
+                <div class="layer">
+                    <h3>Extracting and Visualizing Stock Data</h3>
+                    <p>Analyzes historical stock data, using visualizations to reveal trends that aid in data-driven financial insights.</p>
+                    <a href="https://github.com/Asmajahan/Extracting-and-Visualizing-Stock-Data" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div> 
+            <div class="work">
+                <img src="images/Tech Survey Analytics.jpg">
+                <div class="layer">
+                    <h3>Tech Survey Analytics</h3>
+                    <p>Provides insights into tech trends and user preferences through survey data analysis, helping understand the latest industry patterns.</p>
+                    <a href="https://github.com/Asmajahan/Tech-Survey-Analytics" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div> 
+            <div class="work">
+                <img src="images/Uni.jpg">
+                <div class="layer">
+                    <h3>UniSync</h3>
+                    <p>A university management tool that streamlines student enrollment, fee management, and records to boost administrative efficiency.</p>
+                    <a href="https://github.com/Asmajahan/UniSync" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div> 
+            <div class="work">
+                <img src="images/workforce management.jpg">
+                <div class="layer">
+                    <h3>Workforce Dynamics</h3>
+                    <p>Explores workforce data to identify trends and dynamics, aiding businesses in making informed HR decisions.</p>
+                    <a href="https://github.com/Asmajahan/Workforce-Dynamics" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div> 
+        </div>
+        <a href="https://github.com/Asmajahan" target="_blank" class="btn">See More on GitHub</a>
+    </div>
+</div>
+
+<!-- Certifications Section -->
+<div id="certifications">
+    <div class="container">
+        <h1 class="sub-title">Certifications</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Certification\ibm_data_analyst.png" alt="IBM Data Analyst Professional Certificate">
+                <div class="layer">
+                    <h3>IBM - IBM Data Analyst Professional Certificate</h3>
+                    <p>Completed a comprehensive professional certificate in data analysis from IBM on Coursera, which covered essential data analysis skills and tools, including Python, SQL, Excel, and data visualization techniques. This certificate demonstrates a strong foundation in data analytics, completed in November 2023.</p>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="Certification\google_data_everywhere.png" alt="Google Foundations: Data, Data, Everywhere">
+                <div class="layer">
+                    <h3>Google - Foundations: Data, Data, Everywhere</h3>
+                    <p>Gained a foundational understanding of data analytics through Google’s Coursera course, covering data-driven decision-making and analysis fundamentals, completed in July 2023.</p>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="Certification\google_ask_questions.png" alt="Google Ask Questions to Make Data-Driven Decisions">
+                <div class="layer">
+                    <h3>Google - Ask Questions to Make Data-Driven Decisions</h3>
+                    <p>Developed skills for asking relevant questions to guide data-driven decisions, a key part of data analytics and business intelligence, through a Google course on Coursera, completed in August 2023.</p>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="Certification\british_airways_data_science.png" alt="British Airways - Data Science Job Simulation">
+                <div class="layer">
+                    <h3>British Airways - Data Science Job Simulation</h3>
+                    <p>Completed a data science job simulation, gaining practical experience in data science skills, offered by British Airways in partnership with Forage, in September 2024.</p>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="Certification\quantium_data_analytics.png" alt="Quantium - Data Analytics Job Simulation">
+                <div class="layer">
+                    <h3>Quantium - Data Analytics Job Simulation</h3>
+                    <p>Finished a data analytics job simulation with Quantium, learning hands-on data analytics techniques, offered by Forage, in September 2024.</p>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="Certification\ucdavis_tableau.png" alt="UC Davis - Fundamentals of Visualization with Tableau">
+                <div class="layer">
+                    <h3>UC Davis - Fundamentals of Visualization with Tableau</h3>
+                    <p>Acquired skills in data visualization using Tableau, enhancing abilities to present data insights effectively, through UC Davis on Coursera, completed in September 2024.</p>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="Certification\tata_cybersecurity.png" alt="Tata - Cybersecurity Analyst Job Simulation">
+                <div class="layer">
+                    <h3>Tata - Cybersecurity Analyst Job Simulation</h3>
+                    <p>Gained cybersecurity analyst skills through a simulation with Tata in collaboration with Forage, focusing on cybersecurity essentials, completed in September 2024.</p>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="Certification\jpmorgan_excel_skills.png" alt="JPMorgan Chase & Co. - Excel Skills Job Simulation">
+                <div class="layer">
+                    <h3>JPMorgan Chase & Co. - Excel Skills Job Simulation</h3>
+                    <p>Enhanced Excel skills through a job simulation provided by JPMorgan Chase, focusing on data handling and manipulation, completed in December 2023.</p>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="Certification\Internship Preparation - Certificate.png" alt="Industry Academia Community - Internship Preparation">
+                <div class="layer">
+                    <h3>Industry Academia Community - Internship Preparation</h3>
+                    <p>Participated in an internship preparation workshop organized by Industry Academia Community and Cloud Computing, covering skills needed for internship success, completed in October 2024.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------- Contact-------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p>asmajahankarkal@gmail.com</p>
+                <p>9321834189</p>
+                <div class="social-icons">
+                    <!-- GitHub link -->
+                    <a href="https://github.com/Asmajahan" target="_blank"><i class="fab fa-github"></i></a>
+
+                    <!-- Medium link -->
+                    <a href="https://medium.com/@asmajahankarkal" target="_blank"><i class="fab fa-medium"></i></a>
+
+                    <!-- LinkedIn link -->
+                    <a href="https://www.linkedin.com/in/asmajahan-karkal" target="_blank"><i class="fab fa-linkedin"></i></a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+</body>  
+</html>
